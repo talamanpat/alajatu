@@ -1,0 +1,754 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: white;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px;/* Helvetica, Helvetica Neue, Arial;*/
+    background-color: #423643;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+
+.header-container {
+    /*   border-bottom: 20px solid #2ea0cb;*/
+}
+
+.footer-container {
+    /*   border-top: 20px solid #2ea0cb;*/
+}
+.main aside {
+    /*   border-top: 20px solid #70b03e;*/
+}
+
+.main-container{
+
+    min-height: 500px;
+}
+
+.header-container,
+.footer-container {
+    background: #261f27;
+}
+.main aside {
+    background: #CDD452;
+}
+
+.title {
+    color: white;
+    margin: 0;
+}
+
+
+
+/*
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}*/
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    /*background: #e44d26;*/
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 20px 5% 20px;
+}
+
+.footer-container footer {
+    color: white;
+    font-family: 'Coustard', serif;
+    padding: 20px 0;
+    font-size: 80%;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+h1.title img{
+    height: 150px;
+}
+div.main-container h2, button,input[type="submit"]{
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+/*mis css*/
+div.product{
+    width: 240px;
+    height: 280px;
+    float: left;
+    background-size:240px 280px;
+    background-repeat:no-repeat;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    font-family: 'Coustard', serif;
+}
+
+div.productContent{
+    height: 260px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    position: relative;
+}
+div.productContent2{
+    height: 221px !important;
+}
+
+div.productContent span.price{
+    float: right;
+
+}
+
+div.productContent p.description{
+    position: absolute;
+    bottom: 0px;
+
+}
+
+div.productMinus {
+    background-color: #c9313d;
+    width: 100%;
+    height: 41px;
+    text-align: center;
+    display: none;
+    font-size: 2em;
+}
+
+
+
+
+/*notificacion ios*/
+.productBadge {
+    background:             radial-gradient( 1px -11px, circle, white 8%, #c9313d 26px );
+    background:    -moz-radial-gradient( 1px -11px, circle, white 8%, #c9313d 26px );
+    background:     -ms-radial-gradient( 1px -11px, circle, white 8%, #c9313d 26px );
+    background:      -o-radial-gradient( 1px -11px, circle, white 8%, #c9313d 26px );
+    background: -webkit-radial-gradient( 1px -11px, circle, white 8%, #c9313d 26px );
+    background-color: #c9313d;
+    border: 2px solid white;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px black;
+    color: white;
+    font: bold 18px/15px Helvetica, Verdana, Tahoma;
+    height: 20px;
+    padding: 3px 3px 0 3px;
+    text-align: center;
+    min-width: 16px;
+    float: right;
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+    vertical-align: middle;
+    display: none;
+}
+
+article.step{
+    margin-bottom: 40px;
+}
+
+a{
+    color: #fee169;    
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #f9722e;
+    cursor: pointer;
+}
+
+article#step2{
+    /*display: none;*/
+}
+#cart h2{
+    margin-top: 0;font-family: 'Oswald', sans-serif;
+}
+#cart p, #cart table{
+    width: 100%;
+    color: #77780D;
+}
+#cart table td{
+    padding: 5px;
+}
+#cart table td.pPrice{
+    padding: 5px;
+    vertical-align: top;
+    text-align: right;
+}
+#cart table th{
+    padding: 15px 5px 0 0;
+    font-size: 1.2em;
+    text-align: right;
+
+}
+
+
+article.follow section table td{
+    padding: 20px;
+    vertical-align: top;
+    color: #fee169;
+}
+
+article#step1 header p{
+    font-size: 1.2em;
+}
+
+.footer-container footer p{
+    margin: 0;
+}
+.footer-container footer h3{
+    margin-bottom: 5px;
+}
+
+
+
+.box{
+
+    position: relative;
+    color: white;
+    background: #CDD452;
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.box_arrow:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(205, 212, 82, 0);
+    border-top-color: #CDD452;
+    border-width: 30px;
+    margin-left: -30px;
+}
+.box_actual_state:after {
+
+    border-top-color: #fee169;
+}
+
+
+#cart h2, button,input[type="submit"],input[type=radio] + label, input[type=checkbox] + label,.box{
+
+    text-shadow: 0.1em 0.1em 0.05em rgba(0,0,0, 0.3);
+}
+
+
+
+
+
+button{
+    background: #f9722e;
+    border: none;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 10px 10px 10px 10px;
+
+}
+button:hover,input[type="submit"]:hover,.box_actual_state{
+    background: #fee169;
+    color: black
+}
+
+input[type="submit"]{
+    background: #c9313d;
+    border: none;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 10px 10px 10px 10px;
+}
+
+button.moreInfo{
+    width: auto;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+input[type="text"],input[type="email"],input[type="tel"] , textarea{ 
+    background-color: gray; 
+    border: 5px solid rgba(122, 192, 0, 0.15);
+    color: whitesmoke; 
+    font-size: 1.2em; 
+    padding: 10px;
+    width:100%;
+}
+
+/*
+  Hide radio button (the round disc)
+  we will use just the label to create pushbutton effect
+*/
+input[type=radio],input[type=checkbox] {
+    display:none; 
+}
+
+/*
+  Change the look'n'feel of labels (which are adjacent to radiobuttons).
+  Add some margin, padding to label
+*/
+input[type=radio] + label,input[type=checkbox] + label{
+    display:inline-block;
+    background-color: #f9722e;
+    margin:10px -2px -2px -2px;
+    padding: 16px 16px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: 'Chau Philomene One', sans-serif;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border-right: 1px solid gray;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 0 rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 0 rgba(0,0,0,0.05);
+}
+/*
+ Change background color for label next to checked radio button
+ to make it look like highlighted button
+*/
+input[type=radio]:checked + label,input[type=checkbox]:checked + label,input[type="submit"]:focus { 
+    background-image: none;
+    background: #fee169;
+    color: black;
+    outline: 0;
+
+    -webkit-box-shadow: inset 0 2px 8px rgba(0,0,0,0.15),0 1px 8px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 2px 8px rgba(0,0,0,0.15),0 1px 8px rgba(0,0,0,0.05);
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.15),0 1px 8px rgba(0,0,0,0.05);
+
+}
+input[type=radio] + label:hover,input[type=checkbox] + label:hover { 
+    background: #fee169;
+    color: black;
+}
+
+/*fix some inputs width*/
+div.text, div.tel, div.email,div.moreInfo{
+    margin-right: 30px;
+}
+div.submit{
+    margin: 20px 0; 
+}
+
+
+
+label,legend { 
+    display: block;
+    font-weight: bold; 
+    font-size: 1.5em; 
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+textarea:focus { 
+    border: 5px solid #f9722e;
+    background-color: white; 
+    color: black;
+}
+
+
+
+
+div.error-message, #step2 section div.message{
+    color: #CDD452;
+    font-size: 2em;
+    padding-top: 2px;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+    /* ====================
+        INTERMEDIATE: Menu
+       ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+    /* ========================
+        INTERMEDIATE: IE Fixes
+       ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+
+}
+@media only screen and (min-width: 900px) {
+    
+article#step1 header {
+    position: fixed;
+    bottom: 0px;
+width: 25%;
+right: 30px;
+display: block;
+padding: 20px 2% 15px;
+z-index: -1;
+}
+
+    /* ====================
+        WIDE: CSS3 Effects
+       ==================== */
+    /*
+        .header-container, .footer-container {
+            -webkit-box-shadow: 0 0 20px #c9313d;
+            -moz-box-shadow: 0 0 20px #c9313d;
+            box-shadow: 0 0 20px #c9313d;
+        }    
+        .main aside {
+            -webkit-box-shadow: 0 0 10px #fee169;
+            -moz-box-shadow: 0 0 10px #fee169;
+            box-shadow: 0 0 10px #fee169;
+        }
+    */
+    /* ============
+        WIDE: Menu
+       ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+    /* ============
+        WIDE: Main
+       ============ */
+
+    .main article {
+        float: left;
+        width: 65%;
+        /*        min-width: 500px;*/
+    }
+
+    .main aside {
+        position: fixed;
+        right: 30px;
+        top: 0px;
+        /*top: 180px;*/
+        /*float: right;*/
+        width: 20%;
+        /*max-height: 300px;*/
+        min-height: 110px;
+        /*overflow-x: auto;*/
+    }
+    .main aside .limitTable{
+        max-height: 280px;
+        overflow-x: auto;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+    /* ===============
+        Maximal Width
+       =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+}
+

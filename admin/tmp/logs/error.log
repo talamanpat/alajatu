@@ -1,0 +1,14 @@
+2017-06-26 20:33:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`talamani_alajatudb`.`items`, CONSTRAINT `fk_products_has_orders_products1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /admin/products/delete/16545680-8cfc-11e3-baa8-0800200c9a66
+Stack Trace:
+#0 /home5/talamani/public_html/alajatu/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home5/talamani/public_html/alajatu/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('DELETE `Product...', Array)
+#2 /home5/talamani/public_html/alajatu/lib/Cake/Model/Datasource/Database/Mysql.php(440): DboSource->execute('DELETE `Product...')
+#3 /home5/talamani/public_html/alajatu/lib/Cake/Model/Model.php(2588): Mysql->delete(Object(AppModel), Array)
+#4 /home5/talamani/public_html/alajatu/admin/Controller/ProductsController.php(103): Model->delete()
+#5 [internal function]: ProductsController->delete('16545680-8cfc-1...')
+#6 /home5/talamani/public_html/alajatu/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#7 /home5/talamani/public_html/alajatu/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home5/talamani/public_html/alajatu/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#9 /home5/talamani/public_html/alajatu/admin/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

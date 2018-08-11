@@ -1,0 +1,2 @@
+[26-Jun-2017 20:33:56] PHP Fatal error:  Call to a member function find() on a non-object in /home5/talamani/public_html/alajatu/admin/Controller/ProductsController.php on line 85
+[26-Jun-2017 20:34:14] PHP Fatal error:  Call to a member function find() on a non-object in /home5/talamani/public_html/alajatu/admin/Controller/ProductsController.php on line 85
